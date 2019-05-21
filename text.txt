@@ -1,0 +1,9 @@
+3 4
+2
+
+Nowa linia
+Ostatnia linia
+
+2
+
+koniec
