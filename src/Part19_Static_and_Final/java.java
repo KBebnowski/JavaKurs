@@ -38,15 +38,15 @@ class Thing{
 public class java {
     public static void main(String[] args) {
 
-        //przez static mozna odwolywac sie do pol i metod w klasie nie tworzac obiektu klasy
+        //jesli pole lub metoda jest static mozna odwolywac sie do niej nie tworzac obiektu klasy
 
         Thing.forename="Kowalski";
 
         Thing Thing1 = new Thing();
         Thing1.forename="Kowalski";
 
-        //Thing.name="Jan"; - nie zadziala
-        Thing1.name="Jan";
+        //Thing.name="Jan"; - nie zadziala bo pole nie jest static
+        Thing1.name="Jan";//trzeba stworzyc obiekt
 
         System.out.println(Thing.forename);
         System.out.println(Thing1.forename);

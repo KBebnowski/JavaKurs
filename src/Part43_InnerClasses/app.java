@@ -8,7 +8,7 @@ public class app {
         robot.start();
 
 
-        //Jesli klasa weewnetrzna bylaby pobliczna to mozna byloby sie do niej odwolac
+        //Jesli klasa weewnetrzna bylaby publiczna to mozna byloby sie do niej odwolac
         //Robot.Brain brain = Robot.new Brain();
 
         Robot.Battery battery = new Robot.Battery();
